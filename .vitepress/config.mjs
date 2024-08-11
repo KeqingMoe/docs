@@ -89,5 +89,6 @@ export default defineConfig({
             lang:'zh'
         }
     },
-    cleanUrls: true
+    cleanUrls: true,
+    ignoreDeadLinks:true
 })

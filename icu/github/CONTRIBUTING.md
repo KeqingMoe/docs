@@ -82,10 +82,10 @@ ICU 是一个开源库，是国际化库的事实上的行业标准。我们的�
   * [如何使用 ICU][howtouse]
   * API 参考资料: ICU4[C][icu4c-api]/[J][icu4j-api]
 
-## 设置 & 工作流程
+## 配置 & 工作流程
 
 - [ICU 开发人员应该如何使用 git][git4icu]
-- [贡献者该如何设置][setup]
+- [贡献者该如何配置][setup]
   - [源码访问权][repository]
   - [给 C++ 贡献者的提示][tips]
 - [提交 ICU 的 Bugs 和功能建议][bugs]
