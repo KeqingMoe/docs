@@ -12,11 +12,13 @@ export default {
             link: '/contents'
         },
         {
+            collapsed: true,
             text: 'ICU: 用于 Unicode 的国际化组件',
             link: '/icu/',
             items: [
                 { text: '术语表', link: '/icu/glossary' },
                 {
+                    collapsed: true,
                     text: 'Github 上的 ICU',
                     link: '/icu/github/',
                     items: [
@@ -26,13 +28,15 @@ export default {
                     ],
                 },
                 {
+                    collapsed: true,
                     text: 'ICU 文档翻译',
                     link: '/icu/docs/',
                     items: [
                         { text: 'ICU 用户指南', link: '/icu/docs/userguide' },
                         {
+                            collapsed: true,
                             text: 'ICU',
-                            link: '/icu/docs/icu',
+                            link: '/icu/docs/icu/',
                             items: [
                                 { text: '国际化', link: '/icu/docs/icu/i18n' },
                                 { text: '如何使用 ICU', link: '/icu/docs/icu/howtouseicu' },
@@ -46,6 +50,7 @@ export default {
                         },
                         { text: '示例', link: '/icu/docs/demos' },
                         {
+                            collapsed: true,
                             text: 'ICU4C',
                             link: '/icu/docs/icu4c/',
                             items: [
@@ -56,6 +61,7 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: 'ICU4J',
                             link: '/icu/docs/icu4j/',
                             items: [
@@ -65,6 +71,7 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '字符和字符串',
                             link: '/icu/docs/strings/',
                             items: [
@@ -78,6 +85,7 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '转换',
                             link: '/icu/docs/conversion/',
                             items: [
@@ -88,6 +96,7 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '本地化和资源',
                             link: '/icu/docs/locale/',
                             items: [
@@ -97,6 +106,7 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '日期 / 时间',
                             link: '/icu/docs/datetime/',
                             items: [
@@ -108,10 +118,12 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '格式化',
-                            link: 'icu/docs/format',
+                            link: '/icu/docs/format/',
                             items: [
                                 {
+                                    collapsed: true,
                                     text: '格式化数字',
                                     link: '/icu/docs/format/numbers/',
                                     items: [
@@ -124,6 +136,7 @@ export default {
                                     ]
                                 },
                                 {
+                                    collapsed: true,
                                     text: '格式化日期和时间',
                                     link: '/icu/docs/format/datetime/',
                                     items: [
@@ -131,6 +144,7 @@ export default {
                                     ]
                                 },
                                 {
+                                    collapsed: true,
                                     text: '格式化消息',
                                     link: '/icu/docs/format/messages/',
                                     items: [
@@ -141,6 +155,7 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '变换',
                             link: '/icu/docs/transforms/',
                             items: [
@@ -152,6 +167,7 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '词语定序',
                             link: '/icu/docs/collation/',
                             items: [
@@ -166,6 +182,7 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '文本边界分析',
                             link: '/icu/docs/boundaryanalysis/',
                             items: [
@@ -173,6 +190,7 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: 'I / O',
                             link: '/icu/docs/io/',
                             items: [
@@ -181,6 +199,7 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '布局引擎',
                             link: '/icu/docs/layoutengine/',
                             items: [
@@ -188,6 +207,7 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: 'ICU 数据库',
                             link: '/icu/docs/icu_data/',
                             items: [
@@ -196,6 +216,7 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '其他编程语言语言调用 ICU4C 的接口',
                             link: '/icu/docs/usefrom/',
                             items: [
@@ -203,11 +224,13 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '设计文档',
                             link: '/icu/docs/design/',
                             items: [
                                 { text: '自定义正规化', link: '/icu/docs/design/custom-normalization' },
                                 {
+                                    collapsed: true,
                                     text: '数据结构',
                                     link: '/icu/docs/design/struct/',
                                     items: [
@@ -221,14 +244,16 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '贡献者',
                             link: '/icu/docs/dev/',
                             items: [
                                 { text: '代码规范', link: '/icu/docs/dev/codingguidelines' },
                                 { text: '持续整合', link: '/icu/docs/dev/ci' },
                                 { text: '自定义 ICU4C 同步', link: '/icu/docs/dev/custom' },
-                                { text: '为 ICU API 开发模糊测试目标', link: '/icu/docs/dev/' },
+                                { text: '为 ICU API 开发模糊测试目标', link: '/icu/docs/dev/fuzzer_targets' },
                                 {
+                                    collapsed: true,
                                     text: '发行 & 里程碑',
                                     link: '/icu/docs/dev/release/',
                                     items: [
@@ -258,10 +283,12 @@ export default {
                             ]
                         },
                         {
+                            collapsed: true,
                             text: '贡献者该如何配置',
                             link: '/icu/docs/devsetup/',
                             items: [
                                 {
+                                    collapsed: true,
                                     text: 'C++ 配置',
                                     link: '/icu/docs/devsetup/cpp/',
                                     items: [
@@ -271,6 +298,7 @@ export default {
                                     ]
                                 },
                                 {
+                                    collapsed: true,
                                     text: 'Java 配置',
                                     link: '/icu/docs/devsetup/java/',
                                     items: [
@@ -281,6 +309,7 @@ export default {
                                     ]
                                 },
                                 {
+                                    collapsed: true,
                                     text: '源代码配置',
                                     link: '/icu/docs/devsetup/source/',
                                     items: [

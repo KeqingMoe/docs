@@ -56,7 +56,7 @@ export default defineConfig({
             provider: 'local',
             options:{
                 locales:{
-                    zh:{
+                    root:{
                         translations:{
                             button:{
                                 buttonText: '搜索',
@@ -67,8 +67,12 @@ export default defineConfig({
                                 resetButtonTitle: '清空搜索内容',
                                 footer:{
                                     selectText:'选择',
-                                    navigateText:'切换'
-                                }
+                                    navigateText:'切换',
+                                    closeText:'关闭'
+                                },
+                                displayDetails:'显示细节',
+                                backButtonTitle:'返回',
+                                
                             }
                         }
                     }
