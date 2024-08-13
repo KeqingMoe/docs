@@ -45,8 +45,8 @@
 | 文本边界分析 | Boundary Analysis | ICU的Break Rules定义了文本边界分析的规则，这是一种在文本格式化和处理过程中定位语言边界的方法，包括单词换行、文本选择、字符计数、光标移动、唯一单词列表制作、文本范围完整性判断、单词首字母大写以及特定文本单元定位等任务，由BreakIterator类支持，确保文本操作的准确性和一致性。 |
 | 断句规则 | Break Rules | ICU的Break Rules是通过类似于正则表达式的规则来定位文本中的边界位置，这些规则与Unicode规范中的边界规则相似但并不完全相同，它们定义了如何从已知边界向前移动到下一个边界，并允许应用程序创建自定义的断句迭代器。 |
 | 字典树 | Trie | Trie（字典树或前缀树）是一种用于快速检索和存储字符串数据集中的键的树形数据结构，其中每个节点代表根到该节点的路径上字符串的共同前缀。 |
-| 码点 | Code Point | Code point 是 Unicode 标准中用于唯一标识字符的数字，它是一个从 0 到 0x10FFFF 的非负整数，代表 Unicode 字符集中的字符。 |
-| Unicode 字符数据库 | UCD | Unicode Character Database 的缩写，是 Unicode 联盟维护的一个详尽的数据库，包含了每个 Unicode 代码点的详细属性和行为信息，用于支持 Unicode 标准的各种实现。 |
+| 码位 | Code Point | 码位是表示文本的系统（例如 Unicode）中用于表示抽象字符的数值。Unicode 标准中的码位是用于唯一标识字符的数字，它是一个从 0 到 {1114111:0x10ffff} 的非负整数，代表 Unicode 字符集中的字符。 |
+| Unicode 字符数据库 | UCD | Unicode Character Database 的缩写，是 Unicode 联盟维护的一个详尽的数据库，包含了每个 Unicode 码位的详细属性和行为信息，用于支持 Unicode 标准的各种实现。 |
 | 持续整合 | Continuous Integration | 又译为持续集成，是一种软件工程流程，是将所有软件工程师对于软件的工作副本持续集成到共享主线（mainline）的一种举措。 |
 | 模糊测试 | Fuzzer | 模糊测试是一种软件测试技术。 |
 | 通用当地数据存储库 | CLDR | 通用当地数据存储库项目，是 Unicode 联盟的项目，旨在以XML格式提供用于计算机应用程序的区域设置数据。 |
@@ -72,9 +72,40 @@
 | Makefile | Makefile | Makefile 是一个特殊格式的文件，用于指导 make 工具自动编译和链接程序，它定义了软件构建过程中的依赖关系和构建规则，是自动化构建系统的核心组件。 |
 | 挑选 | Cherry-picking | 仅仅只是“挑选”的意思，而并非“单方论证”。 |
 | 构建系统 | Build System | 构建系统是一个自动化工具或一组指令，用于编译源代码、链接生成可执行文件，并处理软件构建过程中的其他相关任务，以确保软件按照预定的方式正确构建。 |
-| 配置标志 | configure flag | Configure flag（配置标志）是在软件包的配置脚本中使用的一个选项，用来在编译和安装软件之前定制软件的行为或功能。 |
+| 配置标志 | Configure Flag | Configure flag（配置标志）是在软件包的配置脚本中使用的一个选项，用来在编译和安装软件之前定制软件的行为或功能。 |
 | 初次启动 | Initial Bring-up | "Bring-up"通常指的是在计算机系统、软件或硬件设备上初始化和配置的过程，使其从启动状态过渡到完全运行和操作就绪的状态。 |
 | 回溯兼容 | Backward Compatibility | 又称“向下兼容”、“向后兼容”，指的是新版本的程序能够正常使用旧版本的数据。为了消除歧义，翻译成无歧义的“回溯兼容”。 |
 | 前置声明 | Forward Declarations | 也被称作“前向声明”，请参考 [cppreference](https://zh.cppreference.com/w/cpp/language/class#.E5.89.8D.E7.BD.AE.E5.A3.B0.E6.98.8E) 上的介绍。 |
 | using 声明 | | 请参考 [cppreference](https://zh.cppreference.com/w/cpp/language/namespace#using_.E6.8C.87.E4.BB.A4) 上的介绍。 |
 | 翻译单元 | Compilation Unit | 请参考 [维基百科](https://en.wikipedia.org/wiki/Translation_unit_%28programming%29) 或 [cppreference](https://zh.cppreference.com/w/cpp/language/translation_phases) 上的介绍。 |
+| 代码页 | Codepages | 代码页是字符编码的别名，也称内码表，是特定语言的字符集的一张表。 |
+| 位表示 | Bit Representation | 位表示是指使用二进制位来表示数据或信息的一种方式，它是计算机科学中最基础的数据存储和处理形式。 |
+| Repertoire | Repertoire | Repertoire 是某个系统、编码或标准所能表示或包含的全部字符、符号和标记的集合。 |
+| 互操作性 | Interoperable | 互操作性指的是不同的系统、设备或应用程序能够无缝交互和协同工作的能力，不受特定制造商或技术平台的限制。 |
+| 互联网标准 | Internet Standards | 互联网标准是一套公开、无阻碍、开放开发的技术规范，由全球技术专家协作制定，确保互联网的互操作性和持续发展。请参考 [The Internet and Standards](https://www.internetsociety.org/wp-content/uploads/2018/03/factsheet_standards_20090310.pdf) |
+| 字形与字符的区别 | Glyphs versus Characters | Glyphs versus Characters 指的是在文字处理中，字符（作为语言的抽象符号）与其字形（作为字符的视觉表现形态）之间的对比关系。 |
+| 连字 | Ligature | 连字（Ligature）是指将两个或多个字符以特殊的方式组合在一起，形成一个单一的字形，常见于某些字体设计中，用以提高文字的可读性或美观性。 |
+| 单一编码字符集 | Single-coded Character Set | 单一编码字符集是一种字符编码系统，它为每个字符或符号分配唯一的编码值，确保每个字符在不同平台和设备上都能以统一的方式表示和交换。 |
+| 变音符号 | Umlauts | 变音符号（Umlauts）是一种使用两点（"¨"）标记在字母上以表示特定音素变化的字符，常见于德语及其他一些使用拉丁字母的语言中，用以区分不同的发音和词汇意义。 |
+| 良定义 | Well-defined | 良定义（well defined）就是指无歧义的、不会导致矛盾的、符合其应满足的所有要求的定义。 |
+| 空间 | Elbow Room | 俚语，意为自由度或活动空间。 |
+| 增补字符 | Supplementary Characters | 增补字符是Unicode编码中用于表示超出基本多语言平面（BMP）范围的字符，具有从 $U+10000$ 到 $U+10FFFF$ 的编码值，需要用两个16位代码单元来编码。 |
+| 基本多语言平面 | BMP | 基本多语言平面（BMP）是Unicode编码空间中包含从U+0000到U+FFFF码点的第一个平面，它覆盖了大多数常用书写系统的基本字符集。 |
+| 码元 | Code Unit | 码元（Code Unit，也称“代码单元”）是指一个已编码的文本中具有最短的比特组合的单元。 |
+| 互联网号码分配局 | INNA | 互联网号码分配局是全球互联网关键资源的协调和分配机构，负责域名、IP 地址和协议编号系统等的管理和维护。 |
+| 基于字典序的比较 | Comparing Lexically | 字典序（Lexicographical Order）是一种基于字符在字典中出现的顺序来排列字符串的顺序规则，通常用于按照字母或数字序列对文本数据进行排序。 |
+| 有状态 | Stateful | 
+Stateful（有状态的）指的是在处理数据或执行操作时需要维护和依赖于先前状态信息的特性，这通常意味着系统的当前行为受其历史状态的影响。这使得 SCSU 的解压缩必须按照压缩数据的顺序进行，不能随机访问。 |
+| 8 位邮件 | 8-Bit Emails | 8 位邮件（8bit emails）是一种电子邮件编码方式，允许邮件内容使用全部8位字节来表示字符，从而能够传输包括非ASCII字符在内的更广泛的数据类型。 |
+| Base64 编码 | Base64-encoded | Base64 编码是一种用 64 个可打印的 ASCII 字符表示二进制数据的编码方法，它将二进制数据转换成 64 个字符的集合，每个字符代表 6 位原始数据，通常用于在文本格式中安全地传输二进制数据。 |
+| EBCDIC 编码 | EBCDIC | EBCDIC（Extended Binary-Coded Decimal Interchange Code）是一种8位字符编码系统，最初由IBM开发，用于其主机计算机系统，以十进制数字的二进制编码为基础，支持多种语言字符和特殊图形符号。 |
+| Open Interchange | Open Interchange | Open Interchange是一种早期提出的电子邮件和消息系统互操作性文件格式标准，旨在统一不同平台间消息数据的交换方式，但最终未被广泛采用，并被 MIME 取代。 |
+| Singletons | Singletons | 在 Unicode 字符数据库中， Singletons 是指那些和其它单一字符有相同分解的字符。
+| 字位 | Grapheme | 字位又称形素、字素，是最小的有意义书写符号单位；此术语是由语音学里的“音位”（音素）类推到文字学的。在拼音文字系统当中，“字位”是最小且数量最少的区别性单位，也是一个抽象单位。 |
+| 字位簇 | Grapheme Cluster | 字位簇是一个或多个 Unicode 码位的序列，必须将其视为一个单独的、不可分割的字符。 |
+| 说明 | Specification | N/A |
+| 网际协议 | Internet Protocols | 网际协议（英语：Internet Protocol，缩写：IP），又称互联网协议，是互联网协议包中的网络层通信协议，用于跨网络边界分组交换。它的路由功能实现了互联互通，并从本质上建立了互联网。 |
+| 零宽不换行空格 | ZERO WIDTH NO-BREAK SPACE | 零宽度不换行空格通常用作文本处理中的占位符，用于表示空格的存在，但却不会在文本换行时产生断行。与普通的空格字符不同，零宽度不换行空格在文本中是不可见的。 |
+| 单词连接符 | WORD JOINER | U+2060 WORD JOINER是一个Unicode格式字符，用作零宽度非断行空间，主要用于文本处理中防止单词间的连字现象，并在确定字节顺序时提供辅助。 |
+| 启发式算法 | Heuristics | 启发式算法是一种基于经验和直觉的解决问题方法，它通过使用一些实用的、非精确的规则或策略在合理时间内找到一个可接受的解，而不是总是寻找最优解。 |
+

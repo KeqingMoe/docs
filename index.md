@@ -15,7 +15,7 @@ hero:
       link: /about
     - theme: alt
       text: 源码
-      link: https://gitea.keqing.moe/keqingmoe/docs
+      link: https://github.com/KeqingMoe/docs
 
 features:
   - title: 基于 VitePress 构建

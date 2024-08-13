@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import sidebar from './sidebar.mts'
+import { ruby } from "@mdit/plugin-ruby";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -94,5 +95,15 @@ export default defineConfig({
         }
     },
     cleanUrls: true,
-    ignoreDeadLinks:true
+    ignoreDeadLinks:true,
+    markdown:{
+        config:md=>{
+            md.use(ruby);
+        },
+        math:true
+    },
+    sitemap:{
+        hostname:'https://docs.keqing.moe'
+    },
+    lastUpdated:true
 })
