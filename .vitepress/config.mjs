@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import sidebar from './sidebar.mts'
 import { ruby } from "@mdit/plugin-ruby";
+import dirmap from './dirmap.mts';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -105,5 +106,11 @@ export default defineConfig({
     sitemap:{
         hostname:'https://docs.keqing.moe'
     },
-    lastUpdated:true
+    lastUpdated:true,
+    transformPageData(pageData){
+        const catagory=dirmap[pageData.filePath.split('/')[0]];
+        if(catagory){
+            pageData.title=`${pageData.title} - ${catagory}`;
+        }
+    }
 })
