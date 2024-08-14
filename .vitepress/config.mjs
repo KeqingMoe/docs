@@ -108,12 +108,15 @@ export default defineConfig({
     },
     lastUpdated:true,
     transformPageData(pageData){
-        const {catagory,description}=dirmap[pageData.filePath.split('/')[0]];
-        if(catagory){
-            pageData.title=`${pageData.title} - ${catagory}`;
-        }
-        if(description){
-            pageData.description=description;
+        const key=pageData.filePath.split('/')[0];
+        if(key in dirmap){
+            const {catagory,description}=dirmap[key];
+            if(catagory){
+                pageData.title=`${pageData.title} - ${catagory}`;
+            }
+            if(description){
+                pageData.description=description;
+            }
         }
     }
 })
