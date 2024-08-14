@@ -118,5 +118,8 @@ export default defineConfig({
                 pageData.description=description;
             }
         }
-    }
+    },
+    head:[
+        ['link',{rel:'icon',href:'/icon.svg'}]
+    ]
 })
