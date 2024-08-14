@@ -13,7 +13,7 @@ export default {
         },
         {
             collapsed: true,
-            text: 'ICU: 用于 Unicode 的国际化组件',
+            text: 'ICU 中文文档',
             link: '/icu/',
             items: [
                 { text: '术语表', link: '/icu/glossary' },
