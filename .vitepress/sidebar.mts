@@ -124,7 +124,7 @@ export default {
                             items: [
                                 {
                                     collapsed: true,
-                                    text: '格式化数字',
+                                    text: '数字格式化',
                                     link: '/icu/docs/format/numbers/',
                                     items: [
                                         { text: '老式 NumberFormat', link: '/icu/docs/format/numbers/legacy-numberformat' },
@@ -137,7 +137,7 @@ export default {
                                 },
                                 {
                                     collapsed: true,
-                                    text: '格式化日期和时间',
+                                    text: '日期和时间格式化',
                                     link: '/icu/docs/format/datetime/',
                                     items: [
                                         { text: '日期和时间格式化的样例', link: '/icu/docs/format/datetime/examples' }
@@ -145,11 +145,11 @@ export default {
                                 },
                                 {
                                     collapsed: true,
-                                    text: '格式化消息',
+                                    text: '消息格式化',
                                     link: '/icu/docs/format/messages/',
                                     items: [
-                                        { text: '格式化消息的样例', link: '/icu/docs/format/messages/examples' },
-                                        { text: '格式化消息 2.0', link: '/icu/docs/format/messages/mf2' }
+                                        { text: '消息格式化的样例', link: '/icu/docs/format/messages/examples' },
+                                        { text: '消息格式化 2.0', link: '/icu/docs/format/messages/mf2' }
                                     ]
                                 }
                             ]
