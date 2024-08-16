@@ -178,7 +178,7 @@ ICU 提供以下类来迭代特定于语言环境的文本：
 | `utf.h` | `CharacterIterator` | `CharacterIterator` 是一个抽象类，定义了用于文本对象迭代的 API，是用于迭代和随机访问文本对象的接口。此外，它还提供对 Java 和较旧的 ICU `CharacterIterator` 类的回溯兼容。 |
 | N/A | `Formattable` | `Formattable` 是一个轻量级的包装类，它在原始数值类型（如 `double` `long` 等）和 `UDate` 及 `UnicodeString` 类之间进行转换。 `Formattable` 对象可以传递给 `Format` 类或其派生类进行格式化。 |
 | `unorm_` | `Normalizer` | `Normalizer` 将 Unicode 文本转换为等价的组合或分解形式，以便更容易地对文本进行排序和搜索。 |
-| n/a | `ParsePosition` | `ParsePosition` 是一个简单的类， `Format` 类及其派生类在解析过程中用它来跟踪当前位置。 |
+| N/A | `ParsePosition` | `ParsePosition` 是一个简单的类， `Format` 类及其派生类在解析过程中用它来跟踪当前位置。 |
 | `uidna_` |  | RFC 3490 中定义的 IDNA 协议的实现。 |
 | `utf.h` | `StringCharacterIterator` | `CharacterIterator` 的派生类，用于迭代 `UnicodeString` 中的字符（码元或码点）。 |
 | `utf.h` | `UCharCharacterIterator` | `CharacterIterator` 的派生类，用于迭代 `UChar` 数组中的字符（码元或码点）。 |

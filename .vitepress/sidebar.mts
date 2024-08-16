@@ -43,7 +43,7 @@ export default {
                                 { text: 'Unicode 基础知识', link: '/icu/docs/icu/unicode' },
                                 { text: 'ICU 服务', link: '/icu/docs/icu/services' },
                                 { text: 'ICU 设计', link: '/icu/docs/icu/design' },
-                                { text: '从 C/POSIX 迁移', link: '/icu/docs/icu/posix' },
+                                { text: '从 C 或 POSIX 迁移', link: '/icu/docs/icu/posix' },
                                 { text: '发行版信息', link: '/icu/docs/icu/release' },
                                 { text: '术语表', link: '/icu/docs/icu/glossary' }
                             ]
@@ -107,7 +107,7 @@ export default {
                         },
                         {
                             collapsed: true,
-                            text: '日期 / 时间',
+                            text: '日期或时间',
                             link: '/icu/docs/datetime/',
                             items: [
                                 { text: '日历服务', link: '/icu/docs/datetime/calendar/' },
@@ -191,7 +191,7 @@ export default {
                         },
                         {
                             collapsed: true,
-                            text: 'I / O',
+                            text: '输入输出',
                             link: '/icu/docs/io/',
                             items: [
                                 { text: '如同 stdio 的接口', link: '/icu/docs/io/ustdio' },
