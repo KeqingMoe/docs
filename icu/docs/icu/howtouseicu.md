@@ -17,7 +17,7 @@ ICU 的构建和安装流程是比较标准的。有关构建、安装和移植�
 | **软件包** | **内容** |
 | - | - |
 | icu-uc | 通用（uc）和数据（dt/data） |
-| icu-i18n | 国际化库（in/i18n） |
+| icu-i18n | 国际化库（i18n） |
 | icu-le | [布局引擎](../layoutengine/) |
 | icu-lx | 段落布局 |
 | icu-io | [Ustdio](../io/ustdio) / [iostream](../io/ustream) 库 (icuio) |

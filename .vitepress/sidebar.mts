@@ -48,7 +48,7 @@ export default {
                                 { text: '术语表', link: '/icu/docs/icu/glossary' }
                             ]
                         },
-                        { text: '示例', link: '/icu/docs/demos' },
+                        { text: '演示', link: '/icu/docs/demos' },
                         {
                             collapsed: true,
                             text: 'ICU4C',
