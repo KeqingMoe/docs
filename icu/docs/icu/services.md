@@ -48,7 +48,7 @@ ICU 将特定于区域设置的数据存储在资源包中，资源包提供了�
 
 日期和时间例程管理使用自 1970 年 1 月 1 日（UTC 时间 0:00:00.000）以来的毫秒数确定时间和日期，在那之前的时间点以负数表示。
 
-ICU 提供以下 [类](../datetime/index) 来支持日历和时区：
+ICU 提供以下 [类](../datetime/) 来支持日历和时区：
 
 * [`Calendar`](../datetime/calendar/#calendar) ：用于从 `Date` 值中提取与日历相关的属性的抽象类。
 * [`GregorianCalendar`](../datetime/calendar/#gregoriancalendar) ：用于表示公历的具体类。

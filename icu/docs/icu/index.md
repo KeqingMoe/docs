@@ -46,4 +46,4 @@ ICU4J 和 ICU4C 保持相同的开发目标。它们都跟踪 Java 国际化 API
 
 查看 [当前的许可证](../../github/LICENSE)。
 
-另请参阅常见问题与解答部分：[ICU 如何获得许可](../icu4c/faq.md#how-is-icu-licensed)。
+另请参阅常见问题与解答部分：[ICU 如何获得许可](../icu4c/faq#how-is-icu-licensed)。

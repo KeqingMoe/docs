@@ -6,4 +6,4 @@
 
 ## 许可证信息
 
-ICU 项目（ICU4C 和 ICU4J）由 [Unicode 联盟](https://www.unicode.org/) 托管。ICU 二进制文件和源文件根据 [Unicode 数据文件和软件许可证](https://www.unicode.org/license.txt) 分发。此软件包中包含的 [许可证](../LICENSE) 文件中提供了许可证和第三方软件许可证的完整副本。
+ICU 项目（ICU4C 和 ICU4J）由 [Unicode 联盟](https://www.unicode.org/) 托管。ICU 二进制文件和源文件根据 [Unicode 数据文件和软件许可证](https://www.unicode.org/license.txt) 分发。此软件包中包含的 [许可证](../../github/LICENSE) 文件中提供了许可证和第三方软件许可证的完整副本。

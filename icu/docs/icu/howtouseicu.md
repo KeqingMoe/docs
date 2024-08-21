@@ -99,7 +99,7 @@ class UnicodeString;
 U_NAMESPACE_END
 ```
 
-要使用 ICU 的类名，请使用 `icu::`：
+要使用 ICU 的类名，请使用 `icu::` ：
 
 ```cpp
 static myFunction(const icu::UnicodeString &s) {...}
