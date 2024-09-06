@@ -1,6 +1,7 @@
 export default {
     '/': [{
-        text: '中心',
+        text: '这是什么？',
+        link: '/readme',
         items: [
             { text: '目录', link: '/contents' },
             { text: '关于', link: '/about' }

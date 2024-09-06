@@ -8,13 +8,13 @@ hero:
   tagline: 用于发布一些文档，以及实现我的翻译计划
   actions:
     - theme: brand
-      text: 现在启动
+      text: 现在启动！
       link: /contents
     - theme: alt
-      text: 关于
-      link: /about
+      text: 这是什么？
+      link: /readme
     - theme: alt
-      text: 源码
+      text: 获取源码~
       link: https://github.com/KeqingMoe/docs
 
 features:

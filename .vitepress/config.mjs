@@ -3,12 +3,10 @@ import sidebar from './sidebar.mts'
 import { ruby } from "@mdit/plugin-ruby";
 import dirmap from './dirmap.mts';
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "KeqingMoe Docs",
     description: "一些文档",
     themeConfig: {
-        // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: '首页', link: '/' },
             { text: '目录', link: '/contents' }

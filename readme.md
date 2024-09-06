@@ -62,11 +62,11 @@ npm run docs:build
 npm run docs:preview
 ```
 
-将其部署到静态页面托管平台（如 Github Pages）的流程与其他基于 VitePress 的项目相同。
+将其部署到静态页面托管平台（如 Github Pages 或 Cloudflare Pages）的流程与其他基于 VitePress 的项目基本相同。
 
 ## 仓库信息
 
-源代码发布于 [我的 Gitea](https://gitea.keqing.moe/keqingmoe/docs)，并在 Github 上存有 [镜像](https://github.com/KeqingMoe/docs)。
+源代码现已从我的 Gitea 迁移到 Github。
 
 目前已部署于 [docs.keqing.moe](https://docs.keqing.moe) ，如果无法访问，可以自行在本地部署。
 
@@ -74,10 +74,11 @@ npm run docs:preview
 
 仅凭我个人力量维持这个项目是困难的，我们需要你的帮助。
 
-如果你愿意参与其中，请与我联系。但不要直接在 GitHub 发起 PR，因为本项目的性质特殊，目前它的源码存放在我自己的 Gitea上，请联系我，我会帮助你向 Gitea 提交代码。
+如果你愿意参与其中，你可以任选一种方式：
+- 提交 PR
+- 与我联系，获取协作者权限
 
 我的联系方式：
-
 - 我的 [Github](https://github.com/keqingmoe)
 - 我的 [Email: me@keqing.moe](mailto:me@keqing.moe)
 - 我的 [Telegram](https://t.me/keqingmoe)
