@@ -99,7 +99,8 @@ export default defineConfig({
         config:md=>{
             md.use(ruby);
         },
-        math:true
+        math:true,
+        lineNumbers: true
     },
     sitemap:{
         hostname:'https://docs.keqing.moe'

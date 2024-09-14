@@ -323,5 +323,21 @@ export default {
                 }
             ]
         }
-    ]
+    ],
+    '/iro/': [
+        {
+            text: '返回目录',
+            link: '/contents'
+        },{
+            collapsed: true,
+            text: 'Sakurairo 主题文档',
+            link: '/iro/',
+            items: [
+                { text: '快速开始', link: '/iro/quickstart' },
+                { text: '主题配置', link: '/iro/config' },
+                { text: '自定义', link: '/iro/customizing' },
+                { text: '部署', link: '/iro/deployment' },
+            ]
+        }
+    ],
 };
