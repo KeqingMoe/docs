@@ -176,9 +176,9 @@ export default {
                                 { text: '架构', link: '/icu/docs/collation/architecture' },
                                 { text: '自定义', link: '/icu/docs/collation/customization' },
                                 { text: '字符串搜索', link: '/icu/docs/collation/string-search' },
-                                { text: '词语定序的常见问题与解答', link: '/icu/docs/collation/faq' },
+                                { text: '常见问题与解答', link: '/icu/docs/collation/faq' },
                                 { text: 'API 详情', link: '/icu/docs/collation/api' },
-                                { text: '词语定序的样例', link: '/icu/docs/collation/examples' },
+                                { text: '样例', link: '/icu/docs/collation/examples' },
                                 { text: '“忽略标点符号”选项', link: '/icu/docs/collation/ignorepunct' }
                             ]
                         },

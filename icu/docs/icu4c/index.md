@@ -50,10 +50,9 @@ ICU 有一个姊妹项目 ICU4J，它将 Java 的国际化功能扩展到与 ICU
 
 * **官方发行：** 如果你想使用 ICU（而不是开发它），你要下载官方打包的 ICU 源码，它们比系统的开发版经过了更彻底的测试，并且打包在 zip 或 tar 文件中以方便下载。可以在 [https://icu.unicode.org/download](https://icu.unicode.org/download) 上找到打包好的文件，其名为 `icu-版本号.zip` 或 `icu-版本号.tgz` 。
 > :point_right: **注意**：对于特定版本， `maint-*` 分支中有许多额外的提交，它们并不在打包好的文件中。
-* **GitHub 源码：** 如果你对开发版功能、补丁或 Bug 修复感兴趣，您可能需要使用 ICU 源码的最新版。您需要从我们的 GitHub 仓库 clone 并 checkout 代码，已确保您的所有文件都是最新版。有关
-如果您对为开发功能、补丁或错误修复感兴趣，您可能需要使用ICU源代码的最新版本。您需要从我们的GitHub仓库克隆并检出代码，以确保您拥有所有文件的最新版本。有关详细信息，请参阅我们的 [源代码存储库](https://icu.unicode.org/repository)。
+* **GitHub 源码：** 如果你对开发版功能、补丁或 Bug 修复感兴趣，您可能需要使用 ICU 源码的最新版。您需要从我们的 GitHub 仓库 clone 并 checkout 代码，已确保您的所有文件都是最新版。有关详细信息，请参阅我们的 [源代码存储库](https://icu.unicode.org/repository)。
 
-## ICU 源代码组织
+## ICU 源代码组织 {#icu-source-code-organization}
 
 在下面的描述中， `<ICU>` 是 ICU4C 安装目录的完整路径名。您也可以查看用户指南中的 [ICU 架构设计](../icu/design)部分，了解您需要哪些库来构建软件产品。为了使用 ICU，您至少需要 icudt 和 icuuc 库。
 

@@ -168,7 +168,6 @@ SCSU（Unicode 标准压缩方案）旨在减少输入和输出的 Unicode 文�
 
 不同 UTF-x 之间的转换非常快，与 Latin-2 等传统编码之间的转换不同，UTF-x 之间的转换不需要查表。
 
-ICU provides two basic data type definitions for Unicode. `UChar32` is a 32-bit type for code points, and used for single Unicode characters. It may be signed or unsigned. It is the same as `wchar_t` if it is 32 bits wide. `UChar` is an unsigned 16-bit integer for UTF-16 code units. It is the base type for strings (`UChar *`), and it is the same as `wchar_t` if it is 16 bits wide.
 ICU 为 Unicode 提供了两种基本数据类型定义。 `UChar32` 是代码位的 32 位类型，用于单个 Unicode 字符，可以是有符号的或无符号的，宽度可能与 `wchar_t` 相同（如果 `wchar_t` 是 32 位的）。 `UChar` 是 UTF-16 代码单元的无符号 16 位整数，宽度有可能与 `wchar_t` 相同（如果 `wchar_t` 是 16 位的）。
 
 ::: danger 译者注：`wchar_t`? **what_cr(azy)**!

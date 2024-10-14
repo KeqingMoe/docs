@@ -210,7 +210,7 @@ ICU 支持广泛的版本代码和数据更改，并引入了命名空间的使�
 
 ### ICU 中的版本号 {#version-numbers-in-icu}
 
-版本更改会向客户显示 ICU 部分内容何时发生更改。重症监护室；它的组件（例如 `Collator` ）；每个资源包，包括所有语言环境数据资源包；资源包中的各个标记项目都有自己的版本号。随着更改的进行，版本号在数字和词汇上都会增加。
+版本更改会向客户显示 ICU 部分内容何时发生更改。ICU、它的组件（例如 `Collator` ）、每个资源包（包括所有语言环境数据资源包）、资源包中的各个标记项目都有自己的版本号。随着库的迭代升级，版本号在数值和字典序上都会递增。
 
 所有版本号都在应用程序编程接口 (API) 中使用，并具有 `UVersionInfo` 结构。 `UVersionInfo` 结构是一个由四个无符号字节组成的数组。这些字节是：
 
@@ -306,7 +306,7 @@ ICU 2.0 引入了 C++ 命名空间的使用，以避免 ICU 导出符号和其�
 3. 为了清晰起见，类似的 API 被集中在一起（例如格式化）。其中一些依赖项详细信息可以从 ICU API 参考中查看。
 4. 每个 API 的描述可以在我们的 [ICU API参考](https://unicode-org.github.io/icu-docs/apidoc/released/icu4c/) 中找到。
 
-### 代码依赖关系 (C++)
+### 代码依赖关系 (C++) {#library-dependencies-c}
 
 从 ICU 49 开始，代码文件（从 .c 或 .cpp 编译的 .o 文件）的依赖项记录在 [source/test/depstest/dependency.txt](https://github.com/unicode-org/icu/blob/main/icu4c/source/test/depstest/dependencies.txt)。相邻的 Python 代码用于解析此文件并 [验证](https://icu.unicode.org/processes/release/tasks/healthy-code#TOC-Check-library-dependencies) 它是否与实际依赖项匹配代码文件。
 

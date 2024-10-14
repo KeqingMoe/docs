@@ -162,4 +162,4 @@ int main(int argc,int* argv[])
 // ...
 ```
 
-*请向 [icu-support 邮件列表](https://icu.unicode.org/contacts) 提供反馈，并参考 [工单 #8481](https://unicode-org.atlassian.net/browse/ICU-8481)。*
+请向 [icu-support 邮件列表](https://icu.unicode.org/contacts) 提供反馈，并参考 [工单 #8481](https://unicode-org.atlassian.net/browse/ICU-8481)。
